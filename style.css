@@ -1,3 +1,7 @@
+* {
+    border: 2px solid black;
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -36,16 +40,21 @@ html, body {
   font-family: montserrat, helvetica, sans-seif;
 }
 
-.jumbotron .main {
-    position: relative;
-    display: inline-block;
-}
-
 .main img {
     width: 50%;
     height: 50%;
-    margin: 50px 50px 50px 50px;
+    margin: 50px 0px 10px 50px;
     display: inline-block;
+    float: left;
+    position: relative;
+}
+
+.welcome {
+    font-family: lato, helvetica, sans-serif;
+    float: right;
+    display: inline-block;
+    margin: 80px 20px 10px 0px;
+    padding: auto;
 }
 
 * {
