@@ -20,7 +20,7 @@ html, body {
 .container {
   max-width: 940px;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0;
 }
 
 .header img{
@@ -46,7 +46,7 @@ html, body {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 600px;
+    height: 500px;
     margin: 0;
     padding: 0;
 }
@@ -65,28 +65,42 @@ html, body {
     float: right;
     vertical-align: middle;
     display: inline-block;
-    padding-top: 70px;
-    padding-right: 80px;
+    padding-top: 100px;
+    padding-right: 90px;
     padding-left: 10px;
     width: 40%;
 }
 
+.text p {
+    font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+}
+
 #projects {
-    background-image: url(background-white.png);
+    background-image: url(concrete.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 700px;
 }
 
-#projects .col {
+.protitle{
+    padding-top: 60px;
+    font-family: Montserrat, lato, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.col {
   float: left;
   width: 33%;
   font-family: Montserrat, lato, sans-serif;
   text-align: center;
+  padding-top: 50px;
 }
 
-#projects img {
+#projects img{
   height: 200px;
 }
 
@@ -106,4 +120,47 @@ html, body {
 
 .clearfix {
   clear: both;
+}
+
+#projects .learn {
+    padding-top: 100px;
+    padding-bottom: 80px;
+    font-family: Montserrat, lato, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.btn-main {
+  background-color: #333;
+  color: #fff;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  padding: 16px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#films {
+    background-image: url(wall.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    clear: both;
+}
+
+#films h2 {
+  font-weight: 600;
+  font-size: 23px;
+  text-transform: uppercase;
+}
+
+#films p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0 50px;
+  margin-bottom: 40px;
 }
